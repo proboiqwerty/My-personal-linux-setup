@@ -18,12 +18,6 @@ This is inspired by this project which is for fedora but I've made this for smal
 
 ```deb http://deb.debian.org/debian/ trixie main contrib non-free```
 
-```deb-src http://deb.debian.org/debian/ trixie main contrib non-free```
-
 ```deb http://deb.debian.org/debian-security/ trixie-security main contrib non-free```
 
-```deb-src http://deb.debian.org/debian-security/ trixie-security main contrib non-free```
-
 ```deb http://deb.debian.org/debian/ trixie-updates main contrib non-free```
-
-```deb-src http://deb.debian.org/debian/ trixie-updates main contrib non-free```
