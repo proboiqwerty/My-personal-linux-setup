@@ -7,7 +7,7 @@ This is inspired by this project which is for fedora but I've made this for smal
 ## Setting up repos: 
 1. sudo nano /etc/apt/sources.list.d/debian.sources
 2. Add these lines:
-3. 
+ 
    ```deb http://deb.debian.org/debian/ trixie main contrib non-free```
 
    ```deb http://deb.debian.org/debian/ trixie-updates main contrib non-free```
