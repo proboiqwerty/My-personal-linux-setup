@@ -8,8 +8,8 @@ This is inspired by this project which is for fedora but I've made this for smal
 1. sudo nano /etc/apt/sources.list.d/debian.sources
 2. Add these lines:
 
-```deb http://deb.debian.org/debian/ trixie main contrib non-free```
+ ```deb http://deb.debian.org/debian/ trixie main contrib non-free```
 
-```deb http://deb.debian.org/debian/ trixie-updates main contrib non-free```
+ ```deb http://deb.debian.org/debian/ trixie-updates main contrib non-free```
 
-```deb http://security.debian.org/debian-security trixie-security main contrib non-free```
+ ```deb http://security.debian.org/debian-security trixie-security main contrib non-free```
