@@ -24,10 +24,4 @@ This is inspired by this project which is for fedora but I've made this for smal
   
 ## Setting up flathub: 
 
-    ```sudo apt install flatpak```
-    
-    ```sudo apt install gnome-software-plugin-flatpak```
-    
-    ```sudo apt install plasma-discover-backend-flatpak```
-    
-    ```flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo```
+    sudo apt install flathub
