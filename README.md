@@ -13,10 +13,21 @@ This is inspired by this project which is for fedora but I've made this for smal
 ## Setting up repos: 
 
 1. ```sudo nano /etc/apt/sources.list```
+ 
+2. Add these lines:
+
+    ```deb http://deb.debian.org/debian/ trixie main contrib non-free```
+
+    ```deb http://deb.debian.org/debian-security/ trixie-security main contrib non-free```
+   
+    ```deb http://deb.debian.org/debian/ trixie-updates main contrib non-free```
 
 ## Setting up flathub: 
 
     sudo apt install flathub
+    
     sudo apt install gnome-software-plugin-flatpak
+    
     sudo apt install plasma-discover-backend-flatpak
+    
     flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
