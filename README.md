@@ -4,8 +4,8 @@ This is inspired by this project which is for fedora but I've made this for smal
 
 1. Make boot times faster: ```sudo systemctl disable NetworkManager-wait-online.service```
 
-3. Dual boot time fix: ```sudo timedatectl set-local-rtc 0 --adjust-system-clock```
+2. Dual boot time fix: ```sudo timedatectl set-local-rtc 0 --adjust-system-clock```
 
-5. Disable gnome software auto start: ```sudo rm /etc/xdg/autostart/org.gnome.Software.desktop```
+3. Disable gnome software auto start: ```sudo rm /etc/xdg/autostart/org.gnome.Software.desktop```
 
-7. Setting up 1.1.1.1: IPv4: ```1.1.1.1, 1.0.0.1``` | IPv6: ```2606:4700:4700::1111, 2606:4700:4700::1001```
+4. Setting up 1.1.1.1: IPv4: ```1.1.1.1, 1.0.0.1``` | IPv6: ```2606:4700:4700::1111, 2606:4700:4700::1001```
