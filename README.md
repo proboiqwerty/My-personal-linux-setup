@@ -27,7 +27,9 @@ As root
 ```sudo nano /etc/apt/sources.list```
 
 ```deb http://deb.debian.org/debian/ trixie main contrib non-free```
+
 ```deb http://deb.debian.org/debian-security/ trixie-security main contrib non-free```
+
 ```deb http://deb.debian.org/debian/ trixie-updates main contrib non-free```
 
 ## Setting up flathub
