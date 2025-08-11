@@ -21,3 +21,21 @@ As root
 ### To check if the user is sudo: 
 
 ```sudo -l -U user```
+
+## Adding repos: 
+
+```sudo nano /etc/apt/sources.list```
+
+```deb http://deb.debian.org/debian/ trixie main contrib non-free```
+```deb http://deb.debian.org/debian-security/ trixie-security main contrib non-free```
+```deb http://deb.debian.org/debian/ trixie-updates main contrib non-free```
+
+## Setting up flathub
+
+```sudo apt install flatpak```
+
+```sudo apt install gnome-software-plugin-flatpak```
+
+```sudo apt install plasma-discover-backend-flatpak```
+
+```flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo```
