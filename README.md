@@ -9,3 +9,13 @@ This is inspired by this project which is for fedora but I've made this for smal
 3. Disable gnome software auto start: ```sudo rm /etc/xdg/autostart/org.gnome.Software.desktop```
 
 4. Setting up 1.1.1.1: IPv4: ```1.1.1.1, 1.0.0.1``` | IPv6: ```2606:4700:4700::1111, 2606:4700:4700::1001```
+
+## Adding sudo: 
+
+```adduser user```
+
+```adduser user sudo```
+
+### To check if the user is sudo: 
+
+```sudo -l -U user```
