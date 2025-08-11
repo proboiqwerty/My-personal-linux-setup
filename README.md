@@ -20,7 +20,7 @@ As root
 
 ### To check if the user is sudo: 
 
-```sudo -l -U user```
+```-l -U user```
 
 ## Adding repos: 
 
@@ -38,8 +38,8 @@ Add these lines:
 
 ```sudo apt install flatpak```
 
-```sudo apt install gnome-software-plugin-flatpak```
+Gnome: ```sudo apt install gnome-software-plugin-flatpak```
 
-```sudo apt install plasma-discover-backend-flatpak```
+Kde: ```sudo apt install plasma-discover-backend-flatpak```
 
 ```flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo```
