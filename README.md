@@ -12,6 +12,8 @@ This is inspired by this project which is for fedora but I've made this for smal
 
 ## Adding sudo: 
 
+As root
+
 ```adduser user```
 
 ```adduser user sudo```
